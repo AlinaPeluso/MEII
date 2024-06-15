@@ -52,13 +52,46 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
   <table>
     <tr>
       <td>
-        <img style="width:400px;" src="./coldw.png">
+        <img style="width:500px;" src="./coldw.png">
       </td>
       <td>
-        <img style="width:400px;" src="./hotw.png">
+        <img style="width:500px;" src="./hotw.png">
       </td>
       <td>
-        <img style="width:400px;" src="./greenaopens.png">
+        <img style="width:500px;" src="./greenaopens.png">
+      </td>
+    </tr>
+  </table>
+</figure>
+
+<figure class="half">
+  <table>
+    <tr>
+      <td>
+        <img style="width:500px;" src="./hprec.png">
+      </td>
+      <td>
+        <img style="width:500px;" src="./noise.png">
+      </td>
+      <td>
+        <img style="width:500px;" src="./ozone.png">
+      </td>
+    </tr>
+  </table>
+</figure>
+
+
+<figure class="half">
+  <table>
+    <tr>
+      <td>
+        <img style="width:500px;" src="./pm25.png">
+      </td>
+      <td>
+        <img style="width:500px;" src="./radon.png">
+      </td>
+      <td>
+        <img style="width:500px;" src="./TRI.png">
       </td>
     </tr>
   </table>
@@ -66,36 +99,22 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 
 
+<figure class="half">
+  <table>
+    <tr>
+      <td>
+        <img style="width:500px;" src="./uv.png">
+      </td>
+      <td>
+        <img style="width:500px;" src="">
+      </td>
+      <td>
+        <img style="width:500px;" src="">
+      </td>
+    </tr>
+  </table>
+</figure>
 
-
-
-<p align="center">
-<img width="600" src="./hprec.png">
-</p>
-
-<p align="center">
-<img width="600" src="./noise.png">
-</p>
-
-<p align="center">
-<img width="600" src="./ozone.png">
-</p>
-
-<p align="center">
-<img width="600" src="./pm25.png">
-</p>
-
-<p align="center">
-<img width="600" src="./radon.png">
-</p>
-
-<p align="center">
-<img width="600" src="./TRI.png">
-</p>
-
-<p align="center">
-<img width="600" src="./uv.png">
-</p>
 
 ## Section 3: Multi-Exposure Environmental Index (MEEI)
 
