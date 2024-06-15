@@ -13,7 +13,7 @@ To fill these gaps, we took a cumulative approach to measuring the environment b
 
 ```
 # Environmental exposures factors
-df <- read.csv("edh_data.csv")
+df <- read.csv("MEII_data.csv")
 df$GEOID = as.character(as.numeric(df$GEOID))
 head(df)
 ```
