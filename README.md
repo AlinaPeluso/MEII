@@ -10,7 +10,7 @@ To fill these gaps, we took a cumulative approach to measuring the environment b
 
 ## Section 1: Data
 
-The key environmental factors with known health effects used to generate the multi-exposure index are available here:
+The key environmental factors with known health effects used to generate the multi-exposure index are available here: MEII_data.csv
 
 ```
 # Environmental exposures factors
@@ -19,7 +19,7 @@ df$GEOID = as.character(as.numeric(df$GEOID))
 head(df)
 ```
 
-2019 Cartographic Boundary Shapefile, Current Census Tract for United States, 1:500,000 is available here:
+The 2019 Cartographic Boundary Shapefile, Current Census Tract for United States, 1:500,000 is available here:
 [cb_2019_us_tract_500k.zip](https://www2.census.gov/geo/tiger/GENZ2019/shp/cb_2019_us_tract_500k.zip)
 
 ```
@@ -43,49 +43,49 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 
 <p align="center">
-<img width="800" src="./circle_plot.png">
+<img width="600" src="./circle_plot.png">
 </p>
 
 
 
 <p align="center">
-<img width="900" src="./coldw.png">
+<img width="600" src="./coldw.png">
 </p>
 
 <p align="center">
-<img width="900" src="./heatw.png">
+<img width="600" src="./heatw.png">
 </p>
 
 <p align="center">
-<img width="900" src="./greenaopens.png">
+<img width="600" src="./greenaopens.png">
 </p>
 
 <p align="center">
-<img width="900" src="./hprec.png">
+<img width="600" src="./hprec.png">
 </p>
 
 <p align="center">
-<img width="900" src="./noise.png">
+<img width="600" src="./noise.png">
 </p>
 
 <p align="center">
-<img width="900" src="./ozone.png">
+<img width="600" src="./ozone.png">
 </p>
 
 <p align="center">
-<img width="900" src="./pm25.png">
+<img width="600" src="./pm25.png">
 </p>
 
 <p align="center">
-<img width="900" src="./radon.png">
+<img width="600" src="./radon.png">
 </p>
 
 <p align="center">
-<img width="900" src="./TRI.png">
+<img width="600" src="./TRI.png">
 </p>
 
 <p align="center">
-<img width="900" src="./uv.png">
+<img width="600" src="./uv.png">
 </p>
 
 ## Section 3: Multi-Exposure Environmental Index (MEEI)
