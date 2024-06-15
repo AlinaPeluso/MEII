@@ -47,19 +47,21 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 </p>
 
 
-<div class="image123">
-    <div style="float:left;margin-right:5px;">
-        <p align="center">
-        <img src="./coldw.png"  width="200"  />
-    </div>
-    <div style="float:left;margin-right:5px;">
-        <p align="center">
-        <img class="middle-img"  src="./heatw.png"  width="200" />
-    </div>
-    <div style="float:left;margin-right:5px;">
-        <p align="center">
-        <img src="./greenaopens.png"  width="200" />
-    </div>
+
+<figure class="half">
+  <table>
+    <tr>
+      <td>
+        <img style="width:200px;" src="./coldw.png">
+      </td>
+      <td>
+        <img style="width:200px;" src="./heatw.png">
+      </td>
+    </tr>
+  </table>
+</figure>
+
+
 
 
     
