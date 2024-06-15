@@ -53,7 +53,7 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
         <p style="text-align:center;">This is image 1</p>
     </div>
     <div style="float:left;margin-right:5px;">
-        <img class="./heatw.png" src="/images/tv.gif/" height="200" width="200" />
+        <img class="middle-img"  src="./heatw.png"  width="200" />
         <p style="text-align:center;">This is image 2</p>
     </div>
     <div style="float:left;margin-right:5px;">
