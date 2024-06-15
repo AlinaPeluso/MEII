@@ -49,16 +49,13 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 <div class="image123">
     <div class="imgContainer">
-        <img src="./coldw.png" height="200" width="200"/>
-        <p>This is image 1</p>
+        <img src="./coldw.png" width="200"/>
     </div>
     <div class="imgContainer">
-        <img class="./heatw.png" src="/images/tv.gif"/ height="200" width="200"/>
-        <p>This is image 2</p>
+        <img src="./heatw.png" width="200"/>
     </div>
     <div class="imgContainer">
-         <img src="./greenaopens.png"/ height="200" width="200"/>
-        <p>This is image 3</p>
+         <img src="./greenaopens.png" width="200"/>
     </div>
 </div>
 
