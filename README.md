@@ -46,7 +46,13 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 <img width="500" src="./circle_plot.png">
 </p>
 
+.imageContainer {
+    float: left;
+}
 
+p {
+    text-align: center;
+}
 <div class="image123">
     <div style="float:left;margin-right:5px;">
         <img src="./coldw.png" height="200" width="200"  />
