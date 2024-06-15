@@ -52,10 +52,13 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
   <table>
     <tr>
       <td>
-        <img style="width:200px;" src="./coldw.png">
+        <img style="width:400px;" src="./coldw.png">
       </td>
       <td>
-        <img style="width:200px;" src="./heatw.png">
+        <img style="width:400px;" src="./hotw.png">
+      </td>
+      <td>
+        <img style="width:400px;" src="./greenaopens.png">
       </td>
     </tr>
   </table>
@@ -64,19 +67,7 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 
 
-    
 
-<p align="center">
-<img width="600" src="./coldw.png">
-</p>
-
-<p align="center">
-<img width="600" src="./heatw.png">
-</p>
-
-<p align="center">
-<img width="600" src="./greenaopens.png">
-</p>
 
 <p align="center">
 <img width="600" src="./hprec.png">
