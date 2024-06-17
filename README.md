@@ -31,6 +31,7 @@ The 2019 Cartographic Boundary Shapefile, Current Census Tract for United States
 [cb_2019_us_tract_500k.zip](https://www2.census.gov/geo/tiger/GENZ2019/shp/cb_2019_us_tract_500k.zip)
 
 ```{r}
+library(sf)
 # US Censust tract geography
 tracts  <- st_read('cb_2019_us_tract_500k/cb_2019_us_tract_500k.shp')
 tracts$GEOID = as.character(as.numeric(tracts$GEOID))
@@ -172,6 +173,7 @@ projected$MEII <- factor(rowSums(trvars, na.rm = T),
 Spatial distribution of the MEEI:
 
 ```{r}
+library(tmap)
 tm_shape(projected) + 
   tm_fill("MEII",
           style = "quantile",
