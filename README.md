@@ -57,9 +57,6 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
       <td>
         <img style="width:500px;" src="./hotw.png">
       </td>
-      <td>
-        <img style="width:500px;" src="./greenaopens.png">
-      </td>
     </tr>
   </table>
 </figure>
@@ -73,13 +70,9 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
       <td>
         <img style="width:500px;" src="./noise.png">
       </td>
-      <td>
-        <img style="width:500px;" src="./ozone.png">
-      </td>
     </tr>
   </table>
 </figure>
-
 
 <figure class="half">
   <table>
@@ -87,6 +80,16 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
       <td>
         <img style="width:500px;" src="./pm25.png">
       </td>
+      <td>
+        <img style="width:500px;" src="./ozone.png">
+      </td>
+    </tr>
+  </table>
+</figure>
+
+<figure class="half">
+  <table>
+    <tr>
       <td>
         <img style="width:500px;" src="./radon.png">
       </td>
@@ -105,11 +108,8 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
       <td>
         <img style="width:500px;" src="./uv.png">
       </td>
-      <td>
-        <img style="width:500px;" src="">
-      </td>
-      <td>
-        <img style="width:500px;" src="">
+       <td>
+        <img style="width:500px;" src="./greenaopens.png">
       </td>
     </tr>
   </table>
@@ -120,10 +120,10 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 
 <p align="center">
-<img width="900" src="./TRI.png">
+<img width="400" src="./MEII.png">
 </p>
 
 <p align="center">
-<img width="900" src="./uv.png">
+<img width="400" src="./MEII_box.png">
 </p>
 
