@@ -223,7 +223,6 @@ namesc <- c("noisemax"="Transportation noise",
             "heatw"="Hot waves","pm25"="PM 2.5","ozone"="Ozone", "radcont" = "Indoor radon",
             "uv"="UV radiation","greenaopens"="Green areas including open space","greena"="Green areas","tri"="Toxic releases facilities")
 
-
 plot_list <- list()
 for (i in col_names){
   plot <- ggplot(projected, aes_string(x="MEII", y=i)) +
@@ -231,7 +230,7 @@ for (i in col_names){
     geom_violin(trim=F,fill=colsc[i]) +
     theme_light() +
     geom_hline(yintercept = means[i]) +
-    stat_smooth(method = "gam", se=TRUE, aes(group=1),formula = y ~ splines::ns(x, 6)) + #splines::ns(x, 3)) +
+    stat_smooth(method = "gam", se=TRUE, aes(group=1),formula = y ~ splines::ns(x, 6)) + 
     labs(x = "MEII Class", y = namesc[i]) +
     theme(text = element_text(size = 18))
   plot_list[[i]] <- plot
@@ -241,6 +240,6 @@ grid.arrange(plot_grob)
 ```
 
 <p align="center">
-<img width="800" src="./MEII_box.png">
+<img width="900" src="./MEII_box.png">
 </p>
 
