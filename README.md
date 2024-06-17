@@ -12,7 +12,7 @@ To fill these gaps, we took a cumulative approach to measuring the environment b
 
 Description, source, and link details about the data sources acquired as key environmental factors of the multi-exposure index.
 <p align="center">
-<img width="200" src="./data_sources_MEII.png">
+<img width="800" src="./data_sources_MEII.png">
 </p>
 
 
@@ -51,7 +51,7 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 
 <p align="center">
-<img width="500" src="./circle_plot.png">
+<img width="300" src="./circle_plot.png">
 </p>
 
 Spatial distribution of the selected environmental factors used to compute MEEI.
@@ -61,23 +61,10 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:500px;" src="./coldw.png">
+        <img style="width:400px;" src="./coldw.png">
       </td>
       <td>
-        <img style="width:500px;" src="./hotw.png">
-      </td>
-    </tr>
-  </table>
-</figure>
-
-<figure class="half">
-  <table>
-    <tr>
-      <td>
-        <img style="width:500px;" src="./hprec.png">
-      </td>
-      <td>
-        <img style="width:500px;" src="./noise.png">
+        <img style="width:400px;" src="./hotw.png">
       </td>
     </tr>
   </table>
@@ -87,10 +74,10 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:500px;" src="./pm25.png">
+        <img style="width:400px;" src="./hprec.png">
       </td>
       <td>
-        <img style="width:500px;" src="./ozone.png">
+        <img style="width:400px;" src="./noise.png">
       </td>
     </tr>
   </table>
@@ -100,10 +87,23 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:500px;" src="./radon.png">
+        <img style="width:400px;" src="./pm25.png">
       </td>
       <td>
-        <img style="width:500px;" src="./TRI.png">
+        <img style="width:400px;" src="./ozone.png">
+      </td>
+    </tr>
+  </table>
+</figure>
+
+<figure class="half">
+  <table>
+    <tr>
+      <td>
+        <img style="width:400px;" src="./radon.png">
+      </td>
+      <td>
+        <img style="width:400px;" src="./TRI.png">
       </td>
     </tr>
   </table>
@@ -115,10 +115,10 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:500px;" src="./uv.png">
+        <img style="width:400px;" src="./uv.png">
       </td>
        <td>
-        <img style="width:500px;" src="./greenaopens.png">
+        <img style="width:400px;" src="./greenaopens.png">
       </td>
     </tr>
   </table>
