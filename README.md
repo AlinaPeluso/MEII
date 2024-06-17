@@ -171,6 +171,8 @@ projected$MEII <- factor(rowSums(trvars, na.rm = T),
                   levels = range(as.numeric(rowSums(trvars, na.rm = T)),na.rm=T)[1]:range(as.numeric(rowSums(trvars, na.rm = T)),na.rm=T)[2])
 ```
 
+Spatial distribution of the MEEI:
+
 <p align="center">
 <img width="800" src="./MEII.png">
 </p>
@@ -181,11 +183,10 @@ table(projected$MEII)
 round(table(projected$MEII)/72333*100,2)
 ```
 
-|            |(least)                                                       (most)|
-| MEII class |    -2     -1      0      1      2      3      4      5     6     7 |
-| ---------- | ------------------------------------------------------------------ |
-| N CTs      |    64  1,829  8,529 15,874 18,568 14,932  8,365  3,298   770   104 |
-| %          |  0.09   2.53  11.79  21.95  25.67  20.64  11.56   4.56  1.06  0.14 |
+| MEII class |    -2 |    -1 |     0 |     1  |    2   |   3   |   4   |   5   |   6   |    7 |
+| ---------- | ------------------------------------------------------------------------------ |
+| N CTs      |    64 | 1,829 | 8,529 | 15,874 | 18,568 |14,932 | 8,365 | 3,298 |  770  | 104  |
+| %          |  0.09 |  2.53 | 11.79 |  21.95 |  25.67 | 20.64 | 11.56 |  4.56 | 1.06  | 0.14 |
 
 
 
