@@ -4,8 +4,7 @@ US Census Tract Multi-Exposure Environmental Index (MEEI)
 ## Section 0: Introduction
 
 Physical environment plays a key role in determining human health risks. Exposure to toxins, weather extremes, degraded air and water quality, high levels of noise and limited accessibility to green areas can negatively affect health. Furthermore, adverse environmental exposures are often correlated with each other and with socioeconomic status, thereby compounding disadvantages in marginalized populations. 
-Moreover, despite their importance in determining human health risks,  the role of multiple environmental exposures is not well studied, and only a few resources contain aggregate environmental exposure data and only for selected areas of the contiguous US. 
-To fill these gaps, we took a cumulative approach to measuring the environment by generating a composite Multi-Exposure Environmental Index (MEEI) as a US Census Tract-level summary of key environmental factors with known health effects. This measure quantifies multiple environmental exposures in the same area that can result in additive and synergistic effects on health outcomes. This information is crucial to better understand and possibly leverage environmental determinants of health for informed policy-making and intervention.
+Moreover, despite their importance in determining human health risks,  the role of multiple environmental exposures is not well studied, and only a few resources contain aggregate environmental exposure data and only for selected areas of the contiguous US. To fill these gaps, we took a cumulative approach to measuring the environment by generating a composite Multi-Exposure Environmental Index (MEEI) as a US Census Tract-level summary of key environmental factors with known health effects. This measure quantifies multiple environmental exposures in the same area that can result in additive and synergistic effects on health outcomes. This information is crucial to better understand and possibly leverage environmental determinants of health for informed policy-making and intervention.
 
 
 ## Section 1: Data
@@ -49,22 +48,22 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 ## Section 2: Maps of environmental exposures factors
 
+Selected environmental factors used to compute MEEI:
 
 <p align="center">
-<img width="300" src="./circle_plot.png">
+<img width="400" src="./circle_plot.png">
 </p>
 
-Spatial distribution of the selected environmental factors used to compute MEEI.
-
+Spatial distribution of the selected environmental factors used to compute MEEI:
 
 <figure class="half">
   <table>
     <tr>
       <td>
-        <img style="width:400px;" src="./coldw.png">
+        <img style="width:300px;" src="./coldw.png">
       </td>
       <td>
-        <img style="width:400px;" src="./hotw.png">
+        <img style="width:300px;" src="./hotw.png">
       </td>
     </tr>
   </table>
@@ -74,10 +73,10 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:400px;" src="./hprec.png">
+        <img style="width:300px;" src="./hprec.png">
       </td>
       <td>
-        <img style="width:400px;" src="./noise.png">
+        <img style="width:300px;" src="./noise.png">
       </td>
     </tr>
   </table>
@@ -87,10 +86,10 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:400px;" src="./pm25.png">
+        <img style="width:300px;" src="./pm25.png">
       </td>
       <td>
-        <img style="width:400px;" src="./ozone.png">
+        <img style="width:300px;" src="./ozone.png">
       </td>
     </tr>
   </table>
@@ -100,15 +99,14 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
   <table>
     <tr>
       <td>
-        <img style="width:400px;" src="./radon.png">
+        <img style="width:300px;" src="./radon.png">
       </td>
       <td>
-        <img style="width:400px;" src="./TRI.png">
+        <img style="width:300px;" src="./TRI.png">
       </td>
     </tr>
   </table>
 </figure>
-
 
 
 <figure class="half">
@@ -131,11 +129,11 @@ Spatial distribution of the selected environmental factors used to compute MEEI.
 We computed a composite Multi-Exposure Environmental Index (MEEI) that can be used to characterize CTs for multiple environmental factors.  
 This index reflects the number of environmental factors in each CT and their detrimental or beneficial levels.
 The index is then ranked to distinguish areas with greater or lesser environmental deprivation.
-Health-relevant levels are calculated based on the distribution of values for each factor. This enables us to identify CTs in the top 35$^{th}$ exposure percentile and assign a score of $+$1 for detrimental dimensions or $-$1 for beneficial dimensions. Here is an example illustrating the calculation of the index for two specific tracts.
+Health-relevant levels are calculated based on the distribution of values for each factor. This enables us to identify CTs in the top 35th exposure percentile and assign a score of +1 for detrimental dimensions or -1 for beneficial dimensions. Here is an example illustrating the calculation of the index for two specific tracts.
 
 
 <p align="center">
-<img width="200" src="./example_MEII.png">
+<img width="300" src="./example_MEII.png">
 </p>
 
 
