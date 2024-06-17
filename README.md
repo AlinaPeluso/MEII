@@ -1,5 +1,6 @@
-# MEII
-US Census Tract Multi-Exposure Environmental Index (MEEI)
+# US Census Tract Multi-Exposure Environmental Index (MEEI)
+
+Reference paper: [Environmental Determinants of Health: Measuring Multiple Physical Environmental Exposures at United States Census Tract-Level (2024)]()
 
 ## Section 0: Introduction
 
