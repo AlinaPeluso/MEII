@@ -56,6 +56,7 @@ Selected environmental factors used to compute MEEI:
 
 Spatial distribution of the selected environmental factors used to compute MEEI:
 
+<p align="center">
 <figure class="half">
   <table>
     <tr>
@@ -69,6 +70,7 @@ Spatial distribution of the selected environmental factors used to compute MEEI:
   </table>
 </figure>
 
+<p align="center">
 <figure class="half">
   <table>
     <tr>
@@ -82,6 +84,7 @@ Spatial distribution of the selected environmental factors used to compute MEEI:
   </table>
 </figure>
 
+<p align="center">
 <figure class="half">
   <table>
     <tr>
@@ -95,6 +98,7 @@ Spatial distribution of the selected environmental factors used to compute MEEI:
   </table>
 </figure>
 
+<p align="center">
 <figure class="half">
   <table>
     <tr>
@@ -108,15 +112,15 @@ Spatial distribution of the selected environmental factors used to compute MEEI:
   </table>
 </figure>
 
-
+<p align="center">
 <figure class="half">
   <table>
     <tr>
       <td>
-        <img style="width:400px;" src="./uv.png">
+        <img style="width:300px;" src="./uv.png">
       </td>
        <td>
-        <img style="width:400px;" src="./greenaopens.png">
+        <img style="width:300px;" src="./greenaopens.png">
       </td>
     </tr>
   </table>
