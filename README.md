@@ -120,10 +120,10 @@ projected = projected[!(projected$ST %in% c("02", "15", "60","66","69","72","78"
 
 
 <p align="center">
-<img width="400" src="./MEII.png">
+<img width="800" src="./MEII.png">
 </p>
 
 <p align="center">
-<img width="400" src="./MEII_box.png">
+<img width="800" src="./MEII_box.png">
 </p>
 
