@@ -1,6 +1,6 @@
 # US Census Tract Multi-Exposure Environmental Index (MEEI)
 
-Reference paper: [Environmental Determinants of Health: Measuring Multiple Physical Environmental Exposures at United States Census Tract-Level (2024)]()
+Reference paper: [Environmental Determinants of Health: Measuring Multiple Physical Environmental Exposures at United States Census Tract-Level (2024)](https://www.sciencedirect.com/science/article/pii/S135382922400131X)
 
 ## Section 0: Introduction
 
