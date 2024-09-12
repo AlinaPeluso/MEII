@@ -2,6 +2,8 @@
 
 Reference paper: [Environmental Determinants of Health: Measuring Multiple Physical Environmental Exposures at United States Census Tract-Level (2024)](https://www.sciencedirect.com/science/article/pii/S135382922400131X)
 
+Peluso, A., Rastogi, D., Klasky, H.B., Logan, J., Maguire, D., Grant, J., Christian, B. and Hanson, H.A., 2024. Environmental determinants of health: Measuring multiple physical environmental exposures at the United States census tract level. Health & Place, 89, p.103303.
+
 ## Section 0: Introduction
 
 Physical environment plays a key role in determining human health risks. Exposure to toxins, weather extremes, degraded air and water quality, high levels of noise and limited accessibility to green areas can negatively affect health. Furthermore, adverse environmental exposures are often correlated with each other and with socioeconomic status, thereby compounding disadvantages in marginalized populations. 
